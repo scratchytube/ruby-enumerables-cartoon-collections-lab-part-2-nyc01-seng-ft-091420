@@ -32,8 +32,8 @@ def find_valid_calls(planeteer_calls)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
   result = nil
   planeteer_calls.find do |element|
-    element = valid_calls.includes(element)
+    element = valid_calls.include?(element)
   end 
 end 
     
-  #found = array1.find( val => array2.includes(val) )
+  #found = array1.find( val => array2.include?(val) )
