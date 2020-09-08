@@ -37,4 +37,4 @@ def find_valid_calls(planeteer_calls)
   end 
 end 
     
-  
+  #found = array1.find( val => array2.includes(val) )
